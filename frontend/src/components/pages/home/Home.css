@@ -1,0 +1,32 @@
+.introscreen {
+  display: flex;
+  height: 200px;
+  background-color: lightsalmon;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-area {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  border-radius: 10px 0px 0px 10px;
+}
+.image-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: lightblue;
+  height: 400px;
+  width: 300px;
+  text-align: left;
+  color: black;
+  border-radius: 0px 10px 10px 0px;
+}
+h2 {
+  margin-left: 10px;
+  font-size: bold;
+}
+p {
+  margin-left: 10px;
+}

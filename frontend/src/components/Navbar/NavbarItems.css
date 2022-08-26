@@ -1,0 +1,15 @@
+.bg-myNavBackground{
+    color: darkmagenta;
+    background-color:rgb(129, 161, 221);
+    padding: 20;
+    font-size: large;
+    font-weight: 600;
+    
+    
+}
+#layoutBody{
+    color: darkmagenta;
+}
+.navbar{
+    min-height: 80px;
+}
