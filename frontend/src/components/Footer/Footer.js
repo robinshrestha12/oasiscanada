@@ -30,8 +30,8 @@ class AppFooter extends Component {
                                 <div className="card-footer">
                                     <div className="card-text">
                                         <div id="map-google-burundi">
-                                            <iframe loading="lazy"
-                                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJiQFBuWaDwRkRYqHa_a7cqSI&key=AIzaSyDEpYtJ2kzcWljs9UYge7rPPf10pByzMus"></iframe>
+                                            {/* <iframe loading="lazy"
+                                               </iframe> */}
                                         </div>
                                     </div>
 
