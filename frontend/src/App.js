@@ -10,6 +10,7 @@ import { Layout } from './components/DesignFurther/Layout';
 import JumbotronImage from './components/DesignFurther/JumbotronImage';
 import AppFooter from './components/Footer/Footer';
 import Signing from './components/pages/Authentication/Signing';
+import Registration from './components/pages/Registration/Registration';
 import ProtectedRoute from './components/pages/Authentication/ProtectedRoute';
 
 
@@ -28,6 +29,7 @@ function App() {
           <ProtectedRoute path="/about" component={About} />
           <ProtectedRoute path="/donate" component={Donate} />
           <ProtectedRoute path="/ourwork" component={Ourwork} />
+          <ProtectedRoute path="/registration" component={Registration} />
 
         </div>
 

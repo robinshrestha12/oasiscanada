@@ -66,7 +66,7 @@ function NavbarItems() {
 
               <Nav.Link href="Ourwork">News</Nav.Link>
               <Nav.Link href="Contact">Contact Us</Nav.Link>
-              <Nav.Link href="Members">Members Login</Nav.Link>
+              <Nav.Link href="Registration">Members Login</Nav.Link>
               <Nav.Link href="Donate">{t("Donate")}</Nav.Link>
               <LanguageSwitcher />
               <LogOut/>
