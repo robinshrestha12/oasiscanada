@@ -19,6 +19,10 @@ function Registration() {
           <label className="form_label" for="email">Email</label>
           <input className="form_input" type="text" id="email" placeholder="email" />
         </div>
+        <div className="memberCode">
+          <label className="form_label" for="email">MemberCode</label>
+          <input className="form_input" type="text" id="memberCode" placeholder="Member Code" />
+        </div>
         <div className="password">
           <label className="form_label" for="password">Password</label>
           <input className="form_input" type="text" id="firstName" placeholder="Password" />

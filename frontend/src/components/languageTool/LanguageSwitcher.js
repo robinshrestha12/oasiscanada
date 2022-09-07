@@ -11,6 +11,7 @@ function LanguageSwitcher() {
     <div className="select " >
     <label for="selectLanguage"><h5></h5></label>
       <select 
+        //value={i18n.language}
         value={i18n.language}
         onChange={(e) =>
           i18n.changeLanguage(e.target.value)
@@ -19,9 +20,9 @@ function LanguageSwitcher() {
       >
         <option value="en">English</option>
         <option value="fr">Français</option>
-        <option value="it">Italiano</option>
-        <option value="sp">Español</option>
-        <option value="kr">Kirundi</option>
+        {/* <option value="it">Italiano</option> */}
+        {/* <option value="sp">Español</option>
+        <option value="kr">Kirundi</option> */}
       </select>
     </div>
   );

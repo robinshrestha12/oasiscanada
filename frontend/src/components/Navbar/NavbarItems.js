@@ -45,6 +45,7 @@ function NavbarItems() {
                 </DropdownSubmenu>
                 <NavDropdown.Item href="#BoardOfDirectors">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
               </NavDropdownMenu>
+              <Nav.Link href="testimony">Testimony</Nav.Link>
               <NavDropdownMenu title="Projects" id="collapsible-nav-dropdown" alignRight>
                 <DropdownSubmenu href="#projectCur" title="Current Projects">
                   <NavDropdown.Item href="#School1">School/SideWalk</NavDropdown.Item>
@@ -66,7 +67,7 @@ function NavbarItems() {
 
               <Nav.Link href="Ourwork">News</Nav.Link>
               <Nav.Link href="Contact">Contact Us</Nav.Link>
-              <Nav.Link href="Registration">Members Login</Nav.Link>
+              <Nav.Link href="Login">Members Login</Nav.Link>
               <Nav.Link href="Donate">{t("Donate")}</Nav.Link>
               <LanguageSwitcher />
               <LogOut/>
