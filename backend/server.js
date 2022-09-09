@@ -32,3 +32,19 @@ app.get("/users", async (req, res) =>{
     console.log(err.message);
   }
 });
+
+app.post("/users", async (req, res) =>{
+try {
+  const {firstName, lastName, userEmail, code, userPassword } = req.body;
+
+  console.log( "req body ", req.body);
+
+  const newUser = await pool.query("INSERT INTO users(firstName, lastName, userEmail, code, userPassword) VALUES ( $1, $2, $3, $4, $5) RETURNING *", [firstName, lastName, userEmail, code, userPassword]);
+
+  res.json(newUser.rows[0]);
+
+} catch(err) {
+  console.error(err.message);
+}
+
+});
