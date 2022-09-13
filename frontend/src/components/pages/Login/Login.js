@@ -1,9 +1,10 @@
 import React from "react";
 import '../Registration/Registration.css';
-//import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 function Login() {
-  //let history = useHistory();
+  let history = useHistory();
   return (
     <div className="form">
       <div className="form-body">
@@ -21,10 +22,11 @@ function Login() {
       </div>
       <div className="footer">
         <button type="submit" className="btn1">Login</button>
-        <button type="submit" className="btn2" >Cancel</button>
+        <button type="submit" className="btn2" onClick={() => history.goBack()}>Cancel</button>
       </div>
       <br></br>
-      <div className="forgot">Forgot Username or Password? Click here.</div>
+      <div className="forgot">Forgot Username or Password? Click 
+      <Link to={"./Registration"}> here</Link>.</div>
       <div className="newmember">Want to be a member?, get code from Admin and click here to open an account.</div>
 
     </div>
