@@ -27,7 +27,7 @@ function Login() {
       <br></br>
       <div className="forgot">Forgot Username or Password? Click 
       <Link to={"./Registration"}> here</Link>.</div>
-      <div className="newmember">Want to be a member?, get code from Admin and click here to open an account.</div>
+      <div className="newmember">Want to be a member?, get code from Admin and click <Link to={"./Registration"}> here</Link> to open an account.</div>
 
     </div>
   )

@@ -11,7 +11,8 @@ import JumbotronImage from './components/DesignFurther/JumbotronImage';
 import AppFooter from './components/Footer/Footer';
 import Signing from './components/pages/Authentication/Signing';
 import Registration from './components/pages/Registration/Registration';
-import Login from './components/pages/Login/Login'
+import Login from './components/pages/Login/Login';
+import Testimonials from './components/pages/Testimonials/Testimonials';
 import ProtectedRoute from './components/pages/Authentication/ProtectedRoute';
 
 
@@ -31,6 +32,7 @@ function App() {
           <ProtectedRoute path="/donate" component={Donate} />
           <ProtectedRoute path="/ourwork" component={Ourwork} />
           <ProtectedRoute path="/registration" component={Registration} />
+          <ProtectedRoute path="/testimonials" component={Testimonials} />
           <ProtectedRoute path="/Login" component={Login} />
 
         </div>

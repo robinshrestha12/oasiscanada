@@ -45,7 +45,7 @@ function NavbarItems() {
                 </DropdownSubmenu>
                 <NavDropdown.Item href="#BoardOfDirectors">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
               </NavDropdownMenu>
-              <Nav.Link href="testimony">Testimonials</Nav.Link>
+              <Nav.Link href="testimonials">Testimonials</Nav.Link>
               <NavDropdownMenu title="Projects" id="collapsible-nav-dropdown" alignRight>
                 <DropdownSubmenu href="#projectCur" title="Current Projects">
                   <NavDropdown.Item href="#School1">School/SideWalk</NavDropdown.Item>
