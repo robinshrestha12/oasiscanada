@@ -1,9 +1,9 @@
 import React from "react";
 import './Registration.css';
-//import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Registration() {
-  //let history = useHistory();
+  let history = useHistory();
   return (
     <div className="form">
       <div className="form-body">
@@ -35,7 +35,7 @@ function Registration() {
       </div>
       <div className="footer">
         <button type="submit" className="btn1">Register</button>
-        <button type="submit" className="btn2" >Cancel</button>
+        <button type="submit" className="btn2" onClick={() => history.goBack()}>Cancel</button>
       </div>
 
     </div>
