@@ -21,12 +21,12 @@ function Registration() {
     })
   }
   function resetForm(){
-    // setFirstName="";
-    // setLastName="";
-    // setUseremail="";
-    // setMembercode="";
-    // setPassword="";
-   // setConfirmpassword="";
+    setFirstName("");
+    setLastName("");
+    setUseremail("");
+    setMembercode("");
+    setPassword("");
+   setConfirmpassword("");
   }
 
   function onSubmitForm(e) {
@@ -47,36 +47,36 @@ function Registration() {
     <div className="form">
       <div className="form-body">
         <div className="firstName">
-          <label className="form_label" for="firstName">First Name</label>
+          <label className="form_label" htmlFor="firstName">First Name</label>
           <input className="form_input" type="text" id="firstName" placeholder="First Name" value={firstName}
           onChange={e => setFirstName(e.target.value)} />
         </div>
         <div className="lastName">
-          <label className="form_label" for="lastName">Last Name</label>
+          <label className="form_label" htmlFor="lastName">Last Name</label>
           <input className="form_input" type="text" id="lastName" placeholder="Last Name" 
           value={lastName}
           onChange={e => setLastName(e.target.value)}/>
         </div>
         <div className="email">
-          <label className="form_label" for="email">Email</label>
+          <label className="form_label" htmlFor="email">Email</label>
           <input className="form_input" type="text" id="email" placeholder="email" 
           value={userEmail}
           onChange={e=> setUseremail(e.target.value)}/>
         </div>
         <div className="memberCode">
-          <label className="form_label" for="email">MemberCode</label>
+          <label className="form_label" htmlFor="email">MemberCode</label>
           <input className="form_input" type="text" id="memberCode" placeholder="Member Code"
           value={code}
           onChange={e=>setMembercode(e.target.value)} />
         </div>
         <div className="password">
-          <label className="form_label" for="password">Password</label>
+          <label className="form_label" htmlFor="password">Password</label>
           <input className="form_input" type="text" id="firstName" placeholder="Password" 
           value={userPassword}
           onChange={e=>setPassword(e.target.value)}/>
         </div>
         <div className="confirmPassword">
-          <label className="form_label" for="confirmPassword">Confirm Password</label>
+          <label className="form_label" htmlFor="confirmPassword">Confirm Password</label>
           <input className="form_input" type="text" id="confirmPassword" placeholder="Confirm Password" 
           value={confirmPassword}
           onChange={e=>setConfirmpassword(e.target.value)}/>

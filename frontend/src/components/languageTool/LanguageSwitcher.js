@@ -9,7 +9,7 @@ function LanguageSwitcher() {
   return (
     
     <div className="select " >
-    <label for="selectLanguage"><h5></h5></label>
+    <label htmlFor="selectLanguage"><h5></h5></label>
       <select 
         //value={i18n.language}
         value={i18n.language}
