@@ -13,6 +13,7 @@ import Signing from './components/pages/Authentication/Signing';
 import Registration from './components/pages/Registration/Registration';
 import Login from './components/pages/Login/Login';
 import Testimonials from './components/pages/Testimonials/Testimonials';
+import Member from './components/pages/Member/Member';
 import ProtectedRoute from './components/pages/Authentication/ProtectedRoute';
 
 
@@ -33,7 +34,8 @@ function App() {
           <ProtectedRoute path="/ourwork" component={Ourwork} />
           <ProtectedRoute path="/registration" component={Registration} />
           <ProtectedRoute path="/testimonials" component={Testimonials} />
-          <ProtectedRoute path="/Login" component={Login} />
+          <ProtectedRoute path="/login" component={Login} />
+          <ProtectedRoute path="/member" component={Member} />
 
         </div>
 

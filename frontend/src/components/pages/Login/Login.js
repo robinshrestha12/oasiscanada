@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from "react";
 import '../Registration/Registration.css';
-import { useHistory } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 import {Link} from 'react-router-dom';
 import axios from 'axios';
+import './Login.css';
+
+//import {Routes, Route, useNavigate} from 'react-router-dom';
 
 
 
 function Login() {
   
   let history = useHistory();
+  //const navigate = useNavigate();
   const [users, setUsers] = useState([]);
-  const [useremail, setUseremail] = useState("");
+  const [loginUseremail, setLoginUseremail] = useState("");
+  const [loginpassword, setloginpassword]= useState("");
+  const [loginError, setLoginError] = useState("false");
   console.log(users);
   const fetchData =() =>{
     const userApi = `http://localhost:8080/users`;
@@ -28,31 +34,43 @@ function Login() {
 
   function addUser(){
     const filtered_user_table = users.filter(user => {
-      return user.useremail = useremail;
+      //console.log(user.useremail, user.userpassword);
+      return user.useremail === loginUseremail && user.userpassword === loginpassword;
     })
     if(filtered_user_table.length>0){
       console.log("user exists");
-      return;
+      setLoginError("False");
+      history.push("/member");
+    }
+    else {
+      console.log("User does not exists.");
+      setLoginError("True");
     }
   }
   return (
     <div className="form">
       <div className="form-body">
+      {loginError==="True" && <div className="errorlogin">User does not exists.</div>}
       <form onSubmit={e => e.preventDefault()}>
+     
         <div className="username">
-          <label className="form_label" htmlFor="username">User Email</label>
-          <input className="form_input" type="text" id="username" placeholder="example@example.com" />
+          <label className="form_label" htmlFor="useremail">User Email</label>
+          <input className="form_input" type="text" id="useremail" placeholder="example@example.com" 
+          value={loginUseremail}
+          onChange={e=>setLoginUseremail(e.target.value)}/>
         </div>
        
         <div className="password">
           <label className="form_label" htmlFor="password">Password</label>
-          <input className="form_input" type="text" id="firstName" placeholder="Password" />
+          <input className="form_input" type="text" id="password" placeholder="Password"
+          value={loginpassword}
+          onChange={e=>setloginpassword(e.target.value)}/>
         </div>
         </form>
       </div>
       
       <div className="footer">
-        <button type="submit" className="btn1">Login</button>
+        <button type="submit" className="btn1" onClick={addUser}>Login</button>
         <button type="submit" className="btn2" onClick={() => history.goBack()}>Cancel</button>
       </div>
       <br></br>
