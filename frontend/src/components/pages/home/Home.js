@@ -22,7 +22,7 @@ class HomeCarauselComponent extends React.Component {
             <div>
                 <div className="row">
                     <div className='container-fluid'>
-                        <div class="introscreen">
+                        <div className="introscreen">
                             <h2>Une orphelinat aupres des enfants demunis que la Providence nous amene !</h2>
                             <p>Ce site est le site de l'association OASIS Mère de Miséricorde, associée à la fondation OASI muvyeyi w'ikigongwe au Burundi</p>
 
@@ -31,25 +31,25 @@ class HomeCarauselComponent extends React.Component {
                         <Carousel>
 
                             <Carousel.Item>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide01} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>previous condition</h2>
                                                     <p>He used to live....in ..desctiption</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide02} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>Current condition</h2>
                                                     <p>He has improved a lot...desctiption</p>
                                                 </div>
@@ -60,25 +60,25 @@ class HomeCarauselComponent extends React.Component {
 
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide03} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>previous condition</h2>
                                                     <p>He used to live....in ..desctiption</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide04} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>Current condition</h2>
                                                     <p>He has improved a lot...desctiption</p>
                                                 </div>
@@ -89,25 +89,25 @@ class HomeCarauselComponent extends React.Component {
 
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide05} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>previous condition</h2>
                                                     <p>He used to live....in ..desctiption</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide06} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>Current condition</h2>
                                                     <p>He has improved a lot...desctiption</p>
                                                 </div>
@@ -118,25 +118,25 @@ class HomeCarauselComponent extends React.Component {
 
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide07} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>previous condition</h2>
                                                     <p>He used to live....in ..desctiption</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="single-box">
-                                            <div class="image-area">
+                                    <div className="col-md-6">
+                                        <div className="single-box">
+                                            <div className="image-area">
                                                 <img
                                                     src={slide08} height="400px" width="300px" alt="Img1" />
-                                                <div class="image-text">
+                                                <div className="image-text">
                                                     <h2>Current condition</h2>
                                                     <p>He has improved a lot...desctiption</p>
                                                 </div>
