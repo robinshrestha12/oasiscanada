@@ -46,11 +46,11 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Signing} />
-        <div className="App">
+        {/* <div className="App"> */}
 
           <Route component={DefaultContainer} />
 
-        </div>
+        {/* </div> */}
       </Switch>
     </BrowserRouter>
   );

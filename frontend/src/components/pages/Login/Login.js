@@ -40,12 +40,12 @@ function Login() {
       <div className="form-body">
       <form onSubmit={e => e.preventDefault()}>
         <div className="username">
-          <label className="form_label" for="username">User Email</label>
+          <label className="form_label" htmlFor="username">User Email</label>
           <input className="form_input" type="text" id="username" placeholder="example@example.com" />
         </div>
        
         <div className="password">
-          <label className="form_label" for="password">Password</label>
+          <label className="form_label" htmlFor="password">Password</label>
           <input className="form_input" type="text" id="firstName" placeholder="Password" />
         </div>
         </form>
