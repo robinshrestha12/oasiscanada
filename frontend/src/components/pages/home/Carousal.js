@@ -22,7 +22,7 @@ function Carousal() {
     return (
 
 
-        < div ClassName="container" >
+        < div className="container" >
         
             <img src={slide08} height="400px" width="300" alt="" />
             <p>text</p>

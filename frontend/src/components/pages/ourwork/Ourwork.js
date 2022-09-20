@@ -4,7 +4,7 @@ import IMAGES from "./Images";
 import {Container} from "react-bootstrap";
 function Ourwork() {
     return (
-        <div class="text-start">
+        <div className="text-start">
             <h1>Report</h1>
             <p>
                 <strong>ARCHIDIOCESE DE BUJUMBURA Le 30, AO</strong>
@@ -188,7 +188,7 @@ function Ourwork() {
                 <strong></strong>
             </p>
             <Container>
-            <figure className="position-relative">
+            <figure classNameName="position-relative">
             <img src={IMAGES.ReportImage2} className="img-fluid" alt="First Image" style={{maxWidth:'24rem'}}/> 
             <figcaption>Le nouveau orphelin ici a quatre. Le fruit de la grossesse non-désirée. La deuxiènne grossesse non-désirée l’embryon  a été avorté. Ce qui fait que le coupable soit emprisonné et l’enfant s’est retrouvé dans la rue .</figcaption>
             </figure>
