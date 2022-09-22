@@ -6,7 +6,7 @@ const app = express();
 
 const axios = require ('axios');
 
-const port = 8080;
+const port = process.env.port || 8080;
 
 const cors = require('cors');
 
@@ -20,7 +20,7 @@ app.listen(port, () =>{
   console.log(`Dabase server running on port ${port}`);
 
 });
-
+app.get("/", (req, res) => res.send('Welcome to backend'));
 app.get("/users", async (req, res) =>{
   try{
     const getAllusers = await pool.query(
