@@ -8,6 +8,7 @@ import LanguageSwitcher from '../languageTool/LanguageSwitcher.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 //import JumbotronImage from '../DesignFurther/JumbotronImage';
 import LogOut from '../pages/Authentication/Logout.js';
+import '../pages/Archdiocese/Archdiocese.js';
 
 function NavbarItems() {
   const { t, i18n } = useTranslation();
@@ -30,7 +31,7 @@ function NavbarItems() {
                 <NavDropdown.Item href="About">{t("History")}</NavDropdown.Item> 
                 <NavDropdown.Item href="#AnnualReport">{t("Annual_Reports")}</NavDropdown.Item>
                 <NavDropdown.Item href="#SistersWitness">{t("Sister's_Witness")}</NavDropdown.Item>
-                <NavDropdown.Item href="#BoardOfDirectors">{t("Board_Directors")}</NavDropdown.Item>
+                <NavDropdown.Item href="Archdiocese">{t("Board_Directors")}</NavDropdown.Item>
                 <DropdownSubmenu title={t("International_Associations")} id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#Italy">{t("Italy")}</NavDropdown.Item>
                   <NavDropdown.Item href="#France">{t("France")}</NavDropdown.Item>
@@ -43,7 +44,7 @@ function NavbarItems() {
                     <NavDropdown.Item href="#Donor3">{t("Donor_3")}</NavDropdown.Item>
                   </DropdownSubmenu>
                 </DropdownSubmenu>
-                <NavDropdown.Item href="#BoardOfDirectors">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
+                <NavDropdown.Item href="Archdiocese">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
               </NavDropdownMenu>
               <Nav.Link href="testimonials">Testimonials</Nav.Link>
               <NavDropdownMenu title="Projects" id="collapsible-nav-dropdown" alignRight>
