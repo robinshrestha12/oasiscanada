@@ -2,8 +2,8 @@
 
 import React, { Component } from 'react';
 
-const API = 'AIzaSyCtWVsvznMdqWFyjAdAwVj0cP9wPs4WgWI';
-const playlistID = 'PLm1J2EyF0MNTCxp7Ko3kVZnCp4wZMUtEA';
+const API = 'Aasdfasdfasdfasdf';
+const playlistID = 'PLmasdfasdfasdfasdfasdfA';
 const result=2;
 
 var finalURL = `https://www.googleapis.com/youtube/v3/search?key=${API}&playlistItems=${playlistID}&part=snippet,id&order=date&maxResults=${result}`
