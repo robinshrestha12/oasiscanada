@@ -16,7 +16,7 @@ export default function testimonials(){
       <iframe
         src="https://www.youtube.com/embed/C0DPdy98e4c"
         frameborder="0"
-        allow="autoplay; encrypted-media"
+        allow="autoplay; encrypted-media;fullscreen"  
         allowfullscreen
         title="video"
         width={300} height={150}
@@ -31,8 +31,7 @@ export default function testimonials(){
       <iframe
         src="https://www.youtube.com/embed/C0DPdy98e4c"
         frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen
+        allow="autoplay; encrypted-media;fullscreen"    
         title="video"
         width={300} height={150}
       />{" "}
@@ -46,7 +45,7 @@ export default function testimonials(){
       <iframe
         src="https://www.youtube.com/embed/C0DPdy98e4c"
         frameborder="0"
-        allow="autoplay; encrypted-media"
+        allow="autoplay; encrypted-media;fullscreen"  
         allowfullscreen
         title="video"
         width={300} height={150}
