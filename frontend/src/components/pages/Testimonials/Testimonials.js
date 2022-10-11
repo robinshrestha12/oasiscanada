@@ -4,6 +4,17 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 export default function testimonials(){
+  // const YOUTUBE_PLAYLIST_ITEMS_API = "";
+
+  // async function getServerSideProps() {
+  //   const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}`);
+  //   const data = await res.json();
+  //   return {
+  //     props: {
+  //       data
+  //     }
+  //   }
+  // }
 
   return (
   
@@ -14,7 +25,7 @@ export default function testimonials(){
       <div className="image">
       <p className="name">Title of Video</p>
       <iframe
-        src="https://www.youtube.com/embed/C0DPdy98e4c"
+        src="https://www.youtube.com/embed/9Rwhtpq1Vjw"
         frameborder="0"
         allow="autoplay; encrypted-media;fullscreen"  
         allowfullscreen
@@ -29,7 +40,7 @@ export default function testimonials(){
       <div className="image">
       <p className="name">Title of Video</p>
       <iframe
-        src="https://www.youtube.com/embed/C0DPdy98e4c"
+        src="https://www.youtube.com/embed/7BWzWnnutRA"
         frameborder="0"
         allow="autoplay; encrypted-media;fullscreen"    
         title="video"
@@ -43,7 +54,7 @@ export default function testimonials(){
       <div className="image">
       <p className="name">Title of Video</p>
       <iframe
-        src="https://www.youtube.com/embed/C0DPdy98e4c"
+        src="https://www.youtube.com/embed/Ygyy374qYzs"
         frameborder="0"
         allow="autoplay; encrypted-media;fullscreen"  
         allowfullscreen
