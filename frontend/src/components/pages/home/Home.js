@@ -157,10 +157,10 @@ class HomeCarauselComponent extends React.Component {
                 </div>
 
 
-                <div className="row">
+                {/* <div className="row">
                     <Carousalpictures />
 
-                </div>
+                </div> */}
 
             </div>
         );
