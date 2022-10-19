@@ -1,85 +1,60 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import Carousel from "react-simply-carousel";
-import CarouselPics, { CarausalPics } from "./CarausalPics";
-import "./MultiCarausal.css";
+import React, { Component }  from 'react';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+  import slide01 from '../ourwork/images/image001.jpg';
+import slide02 from '../ourwork/images/image004.jpg';
+import slide03 from "../ourwork/images/image007.jpg";
+import slide04 from "../ourwork/images/image009.jpg";
 
-function MultiCarousal() {
-  const [activeSlide, setActiveSlide] = useState(0);
+function MultiCarousal(){
 
-  return (
-    <div>
-      <Carousel
-        updateOnItemClick
-        containerProps={{
-          style: {
-            width: "100%",
-            justifyContent: "space-between"
-          }
-        }}
-        activeSlideIndex={activeSlide}
-        activeSlideProps={{
-          style: {
-            background: "blue"
-          }
-        }}
-        onRequestChange={setActiveSlide}
-        forwardBtnProps={{
-          children: ">",
-          style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
-            alignSelf: "center"
-          }
-        }}
-        backwardBtnProps={{
-          children: "<",
-          style: {
-            width: 60,
-            height: 60,
-            minWidth: 60,
-            alignSelf: "center"
-          }
-        }}
-        itemsToShow={3}
-        speed={400}
-      >
-      
-       {/* {Array.from({ length: 10 }).map((item, index) => (
-          <div
-            style={{
-              background: "red",
-              width: 300,
-              height: 400,
-              border: "1px solid white",
-              textAlign: "center",
-              lineHeight: "240px",
-              boxSizing: "border-box"
-            }}
-            key={index}
-          >
-            {index}
-          </div>
-        ))}
-        */}
-        {CarausalPics.map((pics,index) => (
-            <div className="imageAlign">
-           
-          
-                <img src={`${pics.image}`} alt={pics.title} />
-                <p>{pics.text}</p>
-            </div>
-        )
-            
-        )
-        
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
+return (
+  <div>
+<Carousel
+  swipeable={false}
+  draggable={false}
+  showDots={true}
+  responsive={responsive}
+  ssr={true} // means to render carousel on server-side.
+  infinite={true}
+  // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+  autoPlaySpeed={1000}
+  keyBoardControl={true}
+  customTransition="all .5"
+  transitionDuration={500}
+  containerClass="carousel-container"
+  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // deviceType={this.props.deviceType}
+  dotListClass="custom-dot-list-style"
+  itemClass="carousel-item-padding-40-px"
+  >
 
-        }
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+</Carousel>
 
-      </Carousel>
-    </div>
-  );
+  </div>
+
+  )
 }
 
 
