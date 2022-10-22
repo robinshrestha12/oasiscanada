@@ -1,10 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import slide05 from "../ourwork/images/image012.jpg"
-import slide06 from "../ourwork/images/image014.jpg"
-import slide07 from "../ourwork/images/image016.jpg"
-import slide08 from "../ourwork/images/image018.jpg"
+
 function AliceCarousal() {
 const responsive = {
   superLargeDesktop: {
