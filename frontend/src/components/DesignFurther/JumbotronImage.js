@@ -13,7 +13,10 @@ function JumbotronImage(){
 <div className='jumbotron-bgimage'
     >
       <><h2 className="mb-4">
-       Orphelinat l'Oasis
+        <div className="text-white">
+        Orphelinat l'Oasis
+        </div>
+       
       </h2><p className="mb-4">
          
         </p></>

@@ -23,8 +23,11 @@ function App() {
       <Layout>
         <div className="App">
           <div className="sticky-top">
+            <div className='container-fluid'>
             <NavbarItems />
             <JumbotronImage />
+            </div>
+          
           </div>
 
          {/*<ProtectedRoute exact path="/signing" component={Signing} />*/}
