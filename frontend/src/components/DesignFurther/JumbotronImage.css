@@ -1,13 +1,17 @@
 .jumbotron-bgimage{
-  position: fixed;
-  overflow: hidden;
+  position: top; 
   background-size: cover;
   right: 0;
+ 
 
   background-image: url("../assets/Jumbotronpic.png") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
    padding-top :33px; 
-   padding-bottom: px;
+   padding-bottom: 10px;
    padding-left: 0;
    padding-right: 0;
    width: 100%;

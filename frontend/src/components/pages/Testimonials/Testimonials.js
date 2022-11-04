@@ -23,9 +23,9 @@ export default function testimonials(){
        <div className="alltestimonials" >
        <div className="song" >
       <div className="image">
-      <p className="name">Title of Video</p>
+      <p className="name">The need for Orphanages</p>
       <iframe
-        src="https://www.youtube.com/embed/9Rwhtpq1Vjw"
+        src="https://www.youtube.com/embed/ekV-AZkJIpc"
         frameborder="0"
         allow="autoplay; encrypted-media;fullscreen"  
         allowfullscreen
@@ -53,7 +53,7 @@ export default function testimonials(){
       </div>
       <div className="song" >
       <div className="image">
-      <p className="name">Title of Video</p>
+      <p className="name">The need for Orphanages</p>
       <iframe
         src="https://www.youtube.com/embed/Ygyy374qYzs"
         frameborder="0"
@@ -70,7 +70,7 @@ export default function testimonials(){
       <Card style={{ width: '18rem' }}>
       
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Former Orphans Share</Card.Title>
       <Card.Img src={slide05} ></Card.Img>
         <Card.Text>
           Some quick example text to build on the card title and make up the

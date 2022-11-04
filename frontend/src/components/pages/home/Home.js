@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from '@testing-library/react';
 import slide01 from "../ourwork/images/image001.jpg"
@@ -19,14 +19,18 @@ import LogOut from '../Authentication/Logout';
 class HomeCarauselComponent extends React.Component {
     render() {
         return (
-            <div>
+            <div className='homebody'>
+                  <Container fluid>
                 <div className="row">
-                    <div className='container-fluid'>
-                        <div className="introscreen">
-                            <h2>Une orphelinat aupres des enfants demunis que la Providence nous amene !</h2>
-                            <p>Ce site est le site de l'association OASIS Mère de Miséricorde, associée à la fondation OASI muvyeyi w'ikigongwe au Burundi</p>
+                    {/* <div className='container-fluid'> */}
+                      
+                            <div className="introscreen">
+                                <h2>Une orphelinat aupres des enfants demunis que la Providence nous amene !</h2>
+                                <p>Ce site est le site de l'association OASIS Mère de Miséricorde, associée à la fondation OASI muvyeyi w'ikigongwe au Burundi</p>
 
-                        </div>
+                            </div>
+                       
+
 
                         <Carousel>
 
@@ -149,9 +153,10 @@ class HomeCarauselComponent extends React.Component {
 
                         </Carousel>
 
-                    </div>
+                      
 
                 </div>
+                </Container>
                 <div className="row">
                     <h1>---</h1>
                 </div>
@@ -160,7 +165,7 @@ class HomeCarauselComponent extends React.Component {
                 <div className="row">
                     <MultiCarousal />
 
-                </div> 
+                </div>
 
             </div>
         );

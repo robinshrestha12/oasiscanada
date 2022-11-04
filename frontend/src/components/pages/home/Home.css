@@ -1,14 +1,21 @@
+
+
 .introscreen {
+
   display: flex;
+
+ 
   height: 175px;
   background-color: lightsalmon;
   margin-bottom: 20px;
   justify-content: center;
   flex-direction: column;
-  margin-top: 220px;
+  
+
 }
 
 .image-area {
+  
   display: flex;
   flex-direction: row;
 }

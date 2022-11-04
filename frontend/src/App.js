@@ -22,11 +22,14 @@ function App() {
     <div>
       <Layout>
         <div className="App">
+       
           <div className="sticky-top">
-            <div className='container-fluid'>
+           
             <NavbarItems />
             <JumbotronImage />
-            </div>
+           
+           
+            
           
           </div>
 
@@ -39,7 +42,7 @@ function App() {
           <ProtectedRoute path="/testimonials" component={Testimonials} />
           <ProtectedRoute path="/login" component={Login} />
           <ProtectedRoute path="/member" component={Member} />
-
+      
         </div>
 
         <AppFooter />
