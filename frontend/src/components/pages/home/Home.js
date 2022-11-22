@@ -10,11 +10,16 @@ import slide05 from "../ourwork/images/image012.jpg"
 import slide06 from "../ourwork/images/image014.jpg"
 import slide07 from "../ourwork/images/image016.jpg"
 import slide08 from "../ourwork/images/image018.jpg"
+import slide20 from "../ourwork/images/Foodgiving.jpg"
+import slide21 from "../ourwork/images/Orphanleft.jpg"
 import "./Home.css";
 import Carousalpictures from './Carousal';
 import { CarausalPics } from './CarausalPics';
 import MultiCarousal from './MultiCarousal';
 import LogOut from '../Authentication/Logout';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+//import slide05 from "../ourwork/images/image012.jpg"
 
 class HomeCarauselComponent extends React.Component {
     render() {
@@ -30,7 +35,80 @@ class HomeCarauselComponent extends React.Component {
 
                             </div>
                        
+                            <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>We save them</Card.Title>
+      <Card.Img src={slide21} ></Card.Img>
+        <Card.Text>
+         This baby's mother died giving birth. The father couldn't keep the child.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>We feed them</Card.Title>
+      <Card.Img src={slide20} ></Card.Img>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>We love them</Card.Title>
+      <Card.Img src={slide05} ></Card.Img>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>We educate them</Card.Title>
+      <Card.Img src={slide05} ></Card.Img>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>We catechise them</Card.Title>
+      <Card.Img src={slide05} ></Card.Img>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>Former Orphans Share</Card.Title>
+      <Card.Img src={slide05} ></Card.Img>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">See More ..</Button>
+      </Card.Body>
+    </Card>
 
+
+    
 
                         <Carousel>
 
