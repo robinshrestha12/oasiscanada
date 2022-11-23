@@ -11,7 +11,7 @@ import slide06 from "../ourwork/images/image014.jpg"
 import slide07 from "../ourwork/images/image016.jpg"
 import slide08 from "../ourwork/images/image018.jpg"
 import slide20 from "../ourwork/images/Foodgiving.jpg"
-import slide21 from "../ourwork/images/Orphanleft.jpg"
+import slide21 from "../ourwork/images/orphanleft.jpg"
 import "./Home.css";
 import Carousalpictures from './Carousal';
 import { CarausalPics } from './CarausalPics';

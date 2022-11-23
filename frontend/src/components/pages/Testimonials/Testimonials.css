@@ -8,9 +8,12 @@
 }
 
 .song {
-  width: 300px ;
+  width: auto ;
   display: flex;
   flex-direction: column;
   align-items: left;
 
+}
+.Button {
+  width: 40px;
 }
