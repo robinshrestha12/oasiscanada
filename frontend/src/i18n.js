@@ -3,7 +3,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from "react-i18next";
 import languageEn from './components/assets/locales/en/translation.json';
 import languageFr from './components/assets/locales/fr/translation.json';
-import languageSp from './components/assets/locales/sp/translation.json';
+import languageIt from './components/assets/locales/it/translation.json';
 import Backend from 'i18next-http-backend';
 
 
@@ -17,7 +17,7 @@ i18next
       },
       fr: {translation:languageFr,
       },
-      sp: {translation:languageSp},
+      it: {translation:languageIt},
     },
    
     fallbackLng:"en",

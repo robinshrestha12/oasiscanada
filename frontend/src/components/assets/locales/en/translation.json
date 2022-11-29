@@ -1,4 +1,5 @@
 {
+  "title": "Oasis Orphanage",
   "home_name": "Home",
   "About": "About Us",
   "Vision": "Vision",
@@ -18,5 +19,22 @@
   "Donor_3": "Donor 3",
   "BoardOfDirectors": "BoardOfDirectors",
   "Donate": "Donate",
-  "Ourwork": "Ourwork"
+  "Ourwork": "Ourwork",
+  "Contactus": "Contact Us",
+  "OrpMain": "Main Orphanage, Bujumbura",
+  "Testimonials": "Testimonials",
+
+  "School": "School",
+  "Sidewalk":"Sidewalk",
+  "Medclinik": "Medical Clinic",
+  "Schresidence": "School Residence",
+  "Miniproject": "Mini Projects",
+  "Compprojects": "Completed Projects",
+  "Orp_resident": "Orphanage Residence",
+  "Sis_noviciat": "Sisters Noviciat",
+  "Chapel": "Chapelle",
+  "Land_Purchase": "Land Purchase",
+  "Mini_Store": "Mini Store",
+  "News": "News",
+  "Login": "Login"
 }

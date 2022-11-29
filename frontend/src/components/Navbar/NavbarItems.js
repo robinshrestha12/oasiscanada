@@ -17,7 +17,7 @@ function NavbarItems() {
       <Navbar bg="myNavBackground" variant="dark" fixed="top" expand="sm">
         <Container>
           <Navbar.Brand>
-            <h2>Oasi Muvyeyi w'Ikigongwe</h2>
+            <h2>{t("title")}</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -46,11 +46,11 @@ function NavbarItems() {
                 </DropdownSubmenu>
                 <NavDropdown.Item href="Archdiocese">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
               </NavDropdownMenu>
-              <Nav.Link href="testimonials">Testimonials</Nav.Link>
+              <Nav.Link href="testimonials">{t("Testimonials")}</Nav.Link>
               <NavDropdownMenu title="Projects" id="collapsible-nav-dropdown" alignRight>
                 <DropdownSubmenu href="#projectCur" title="Current Projects">
-                  <NavDropdown.Item href="#School1">School/SideWalk</NavDropdown.Item>
-                  <NavDropdown.Item href="#School2">School/Washroom</NavDropdown.Item>
+                  <NavDropdown.Item href="#School1">{t("School")} / {t("Sidewalk")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#School2">{t("School")} / {t("Medclinik")}</NavDropdown.Item>
                   <NavDropdown.Item href="#School3">Medical Clinic</NavDropdown.Item>
                   <NavDropdown.Item href="#School4">School Residence</NavDropdown.Item>
                   <NavDropdown.Item href="#School5">Staff School</NavDropdown.Item>
