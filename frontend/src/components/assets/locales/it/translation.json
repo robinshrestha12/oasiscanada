@@ -28,8 +28,12 @@
 
   "School": " Scuole",
   "Sidewalk":"marciapiede",
+  "Washroom": "Bagni",
   "Medclinik": "Clinica Medica",
   "Schresidence": "Residenza scolastica",
+  "Staff_school": "Scuola del Personale",
+  "projects": "Progetti",
+  "current_projects":"Progetti attuali",
   "Miniproject": "Piccoli progetti",
   "Compprojects": "Progetti completati",
   "Orp_resident": "Residenza degli orfani",

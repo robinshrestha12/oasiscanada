@@ -47,28 +47,28 @@ function NavbarItems() {
                 <NavDropdown.Item href="Archdiocese">{t("Archdiocese_Bujumbura")}</NavDropdown.Item>
               </NavDropdownMenu>
               <Nav.Link href="testimonials">{t("Testimonials")}</Nav.Link>
-              <NavDropdownMenu title="Projects" id="collapsible-nav-dropdown" alignRight>
-                <DropdownSubmenu href="#projectCur" title="Current Projects">
+              <NavDropdownMenu title={t("projects")} id="collapsible-nav-dropdown" alignRight>
+                <DropdownSubmenu href="#projectCur" title={t("current_projects")}>
                   <NavDropdown.Item href="#School1">{t("School")} / {t("Sidewalk")}</NavDropdown.Item>
-                  <NavDropdown.Item href="#School2">{t("School")} / {t("Medclinik")}</NavDropdown.Item>
-                  <NavDropdown.Item href="#School3">Medical Clinic</NavDropdown.Item>
-                  <NavDropdown.Item href="#School4">School Residence</NavDropdown.Item>
-                  <NavDropdown.Item href="#School5">Staff School</NavDropdown.Item>
-                  <NavDropdown.Item href="#School6">Mini Projects</NavDropdown.Item>
+                  <NavDropdown.Item href="#School2">{t("School")} / {t("Washroom")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#School3">{t("Medclinik")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#School4">{t("Schresidence")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#School5">{t("Staff_school")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#School6">{t("Miniproject")}</NavDropdown.Item>
                 </DropdownSubmenu>
                 <NavDropdown.Divider />
-                <DropdownSubmenu href="#projectComp" title="Project Completed">
-                  <NavDropdown.Item href="#ProjectComp1">Orphanage Residence</NavDropdown.Item>
-                  <NavDropdown.Item href="#ProjectComp2">Sisters Residence</NavDropdown.Item>
-                  <NavDropdown.Item href="#ProjectComp1">Chapel</NavDropdown.Item>
-                  <NavDropdown.Item href="#ProjectComp1">Land Purchase</NavDropdown.Item>
-                  <NavDropdown.Item href="#ProjectComp1">Mini-Store</NavDropdown.Item>
+                <DropdownSubmenu href="#projectComp" title={t("Compprojects")}>
+                  <NavDropdown.Item href="#ProjectComp1">{t("Orp_resident")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#ProjectComp2">{t("Sis_noviciat")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#ProjectComp1">{t("Chapel")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#ProjectComp1">{t("Land_Purchase")}</NavDropdown.Item>
+                  <NavDropdown.Item href="#ProjectComp1">{t("Mini_Store")}</NavDropdown.Item>
                 </DropdownSubmenu>
               </NavDropdownMenu>
 
-              <Nav.Link href="Ourwork">News</Nav.Link>
-              <Nav.Link href="Contact">Contact Us</Nav.Link>
-              <Nav.Link href="Login">Members Login</Nav.Link>
+              <Nav.Link href="Ourwork">{t("News")}</Nav.Link>
+              <Nav.Link href="Contact">{t("Contactus")}</Nav.Link>
+              <Nav.Link href="Login">{t("Login")}</Nav.Link>
               <Nav.Link href="Donate">{t("Donate")}</Nav.Link>
               <LanguageSwitcher />
               <LogOut/>
