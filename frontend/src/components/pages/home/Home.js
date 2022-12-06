@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from '@testing-library/react';
 import slide01 from "../ourwork/images/image001.jpg"
@@ -20,13 +20,19 @@ import LogOut from '../Authentication/Logout';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 //import slide05 from "../ourwork/images/image012.jpg"
-
-class HomeCarauselComponent extends React.Component {
-    render() {
+import jumbobgimage from "../../assets/Jumbotronpic.png";
+//class HomeCarauselComponent extends React.Component {
+function HomeCarauselComponent() {
+   // render() {
         return (
-            <div className='homebody'>
-                  <Container fluid>
-                <div className="row">
+            <div >
+                
+            <Container fluid style={{paddingLeft: '0px', paddingRight: '0px'}}>
+<Row noGutters>
+<img src={jumbobgimage} class="img-fluid" alt="Responsive image"></img>
+{/* <Container fluid className={"no-gutters mx-0 px-0"}>
+    <Row noGutters={true}> */}
+       
                     {/* <div className='container-fluid'> */}
                       
                             <div className="introscreen">
@@ -34,7 +40,11 @@ class HomeCarauselComponent extends React.Component {
                                 <p>Ce site est le site de l'association OASIS Mère de Miséricorde, associée à la fondation OASI muvyeyi w'ikigongwe au Burundi</p>
 
                             </div>
-                       
+    </Row>
+    </Container>
+
+    <Container>
+        <Row>
                             <Card style={{ width: '18rem' }}>
       
       <Card.Body>
@@ -232,9 +242,10 @@ class HomeCarauselComponent extends React.Component {
                         </Carousel>
 
                       
+                        
 
-                </div>
-                </Container>
+                {/* </Row>
+                </Container> */}
                 <div className="row">
                     <h1>---</h1>
                 </div>
@@ -244,10 +255,11 @@ class HomeCarauselComponent extends React.Component {
                     <MultiCarousal />
 
                 </div>
-
+                </Row>
+</Container>
             </div>
         );
     }
-}
+//}
 export default HomeCarauselComponent;
 

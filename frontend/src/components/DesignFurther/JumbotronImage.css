@@ -1,3 +1,15 @@
+.Container {
+  max-width: 100%;
+}
+.Row{
+  display: flex;
+  justify-content: space-between;
+
+}
+.Col {
+  flex: 1 1;
+}
+
 .jumbotron-bgimage{
   position: top; 
   background-size: cover;
@@ -12,13 +24,13 @@
 
    padding-top :33px; 
    padding-bottom: 10px;
-   padding-left: 0;
-   padding-right: 0;
-   width: 100%;
+   padding-left: -10;
+   padding-right: -10;
+   max-width: 100%;
+  
    height: 200px; 
    
-   margin-left:auto;
-   margin-right:auto;
+  
    margin-top: 0;
    margin-bottom: 10px;
 

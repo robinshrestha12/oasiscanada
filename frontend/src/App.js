@@ -18,15 +18,17 @@ import ProtectedRoute from './components/pages/Authentication/ProtectedRoute';
 
 
 function App() {
+  
   const DefaultContainer = () => (
     <div>
+     
       <Layout>
         <div className="App">
        
           <div className="sticky-top">
            
             <NavbarItems />
-            <JumbotronImage />
+           
            
            
             
