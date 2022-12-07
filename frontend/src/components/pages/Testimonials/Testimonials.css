@@ -1,12 +1,11 @@
-.alltestimonials {
+.testimonials {
   
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 50px;
+  
 }
-
+.custom-class {
+  background-color: hsl(240, 7%, 86%);
+}
 .song {
   width: auto ;
   display: flex;

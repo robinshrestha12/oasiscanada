@@ -44,8 +44,9 @@ function HomeCarauselComponent() {
     </Container>
 
     <Container>
-        <Row>
-                            <Card style={{ width: '18rem' }}>
+    <Row className="d-flex justify-content-between ">
+
+           <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>We save them</Card.Title>
@@ -56,7 +57,8 @@ function HomeCarauselComponent() {
         <Button variant="primary">See More ..</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+
+     <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>We feed them</Card.Title>
@@ -68,7 +70,7 @@ function HomeCarauselComponent() {
         <Button variant="primary">See More ..</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>We love them</Card.Title>
@@ -80,7 +82,7 @@ function HomeCarauselComponent() {
         <Button variant="primary">See More ..</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>We educate them</Card.Title>
@@ -92,7 +94,7 @@ function HomeCarauselComponent() {
         <Button variant="primary">See More ..</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>We catechise them</Card.Title>
@@ -104,7 +106,7 @@ function HomeCarauselComponent() {
         <Button variant="primary">See More ..</Button>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card className="custom-class" style={{ width: '18rem' }}>
       
       <Card.Body>
         <Card.Title>Former Orphans Share</Card.Title>
