@@ -7,14 +7,31 @@ import slide05 from "../ourwork/images/image012.jpg"
 import Videodesc from './Videodesc';
 import { Container, Row } from 'react-bootstrap';
 export default function testimonials() {
-  const [visibleItem, setVisibleItem] = useState('');
+  const [visibleItem, setVisibleItem] = useState('video1');
+  const [buttonText, setButtonText] = useState("See more ..");
+  const [visibleItem2, setVisibleItem2] = useState('video2');
+  const [visibleItem3, setVisibleItem3] = useState('video3');
   const settingParagraph = function () {
     if (visibleItem === "video1") {
-      setVisibleItem('')
+      setVisibleItem('video1');
+      setButtonText("See less ..");
+    
+      setVisibleItem2("");
+      setVisibleItem3("");
     }
-    else {
-      setVisibleItem("video1");
+    else if(visibleItem2 === "video2") {
+      setVisibleItem("");
+      setButtonText("See less ..");
+      setVisibleItem2("video2");
+      setVisibleItem3("");
     }
+    else if(visibleItem3 === "video3") {
+      setVisibleItem("");
+      setButtonText("See less ..");
+      setVisibleItem2("");
+      setVisibleItem3("video3");
+    }
+
   }
   return (
 
@@ -24,6 +41,7 @@ export default function testimonials() {
 
       <Container>
         <Row className="d-flex justify-content-between ">
+        {visibleItem === "video1" &&
           <Card className="custom-class" style={{ width: '22rem' }}>
 
             <Card.Body>
@@ -39,9 +57,11 @@ export default function testimonials() {
               <Card.Text>
               Interview between Sister Ida (a native of Burundi) and M. Gabriel Legault of Canada July 2022
               </Card.Text>
-              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>See More ..</Button>
+              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>{buttonText}</Button>
             </Card.Body>
           </Card>
+}
+          {visibleItem2 === "video2" &&
           <Card className="custom-class" style={{ width: '22rem' }}>
 
             <Card.Body>
@@ -59,9 +79,11 @@ export default function testimonials() {
                 bulk of the card's content.
               </Card.Text>
             
-              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>See More ..</Button>
+              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>{buttonText}</Button>
             </Card.Body>
-          </Card>
+          </Card>}
+
+          {visibleItem3 === "video3" &&
           <Card className="custom-class" style={{ width: '22rem' }}>
 
             <Card.Body>
@@ -78,9 +100,9 @@ export default function testimonials() {
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
               </Card.Text>
-              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>See More ..</Button>
+              <Button variant="primary" style={{ textAlign: 'center' }} onClick={settingParagraph}>{buttonText}</Button>
             </Card.Body>
-          </Card>
+          </Card>}
         </Row>
       </Container>
 <div>

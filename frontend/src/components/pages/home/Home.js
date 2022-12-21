@@ -44,7 +44,7 @@ function HomeCarauselComponent() {
     </Container>
 
     <Container>
-    <Row className="d-flex justify-content-between ">
+    <Row className="d-flex justify-content-around ">
 
            <Card className="custom-class" style={{ width: '18rem' }}>
       
