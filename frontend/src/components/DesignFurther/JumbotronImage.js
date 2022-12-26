@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './JumbotronImage.css';
 import jumbobgimage from "../assets/Jumbotronpic.png";
 //console.log(jumbobgimage);
-import { Container, Row, Col } from "react-bootstrap";
+//import { Container, Row, Col } from "react-bootstrap";
 
 function JumbotronImage() {
   return (
