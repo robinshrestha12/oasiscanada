@@ -14,6 +14,7 @@ import slide20 from "../ourwork/images/Foodgiving.jpg"
 import slide21 from "../ourwork/images/orphanleft.jpg"
 import "./Home.css";
 import Carousalpictures from './Carousal';
+import { useTranslation } from "react-i18next";
 import { CarausalPics } from './CarausalPics';
 import MultiCarousal from './MultiCarousal';
 import LogOut from '../Authentication/Logout';
@@ -23,6 +24,7 @@ import Card from 'react-bootstrap/Card';
 import jumbobgimage from "../../assets/Jumbotronpic.png";
 //class HomeCarauselComponent extends React.Component {
 function HomeCarauselComponent() {
+    const { t, i18n } = useTranslation();
    // render() {
         return (
             <div >
@@ -36,8 +38,8 @@ function HomeCarauselComponent() {
                     {/* <div className='container-fluid'> */}
                       
                             <div className="introscreen">
-                                <h2>Une orphelinat aupres des enfants demunis que la Providence nous amene !</h2>
-                                <p>Ce site est le site de l'association OASIS Mère de Miséricorde, associée à la fondation OASI muvyeyi w'ikigongwe au Burundi</p>
+                                <h2>{t("Home_heading")}</h2>
+                                <p>{t("Home_abstract")}</p>
 
                             </div>
     </Row>

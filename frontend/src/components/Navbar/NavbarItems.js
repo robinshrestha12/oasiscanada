@@ -17,7 +17,8 @@ function NavbarItems() {
       <Navbar bg="myNavBackground" variant="dark" fixed="top" expand="sm">
         <Container>
           <Navbar.Brand>
-            <h2>Oasi Muvyeyi w'Ikigongwe</h2>
+            <h2>Oasis OMIK</h2>
+            {/* <h2>Oasi Muvyeyi w'Ikigongwe</h2> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
