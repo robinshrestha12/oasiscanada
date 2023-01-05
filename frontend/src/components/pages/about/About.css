@@ -1,3 +1,6 @@
 .NavbarItems {
     background: linear-gradient(blue);
 }
+p {
+    text-align: left;
+}
