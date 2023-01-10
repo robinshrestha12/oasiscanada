@@ -13,6 +13,9 @@ import slide08 from "../ourwork/images/image018.jpg"
 import slide20 from "../ourwork/images/Foodgiving.jpg"
 import slide21 from "../ourwork/images/orphanleft.jpg";
 import schoolpic from "../ourwork/images/classroompic.jpg"
+import riceCultivate from "../ourwork/images/ricecultivate.jpg";
+import catacaise from "../ourwork/images/catacaise.png";
+import loveThem from "../ourwork/images/loveThem.png";
 import "./Home.css";
 import Carousalpictures from './Carousal';
 import { useTranslation } from "react-i18next";
@@ -87,7 +90,7 @@ function HomeCarauselComponent() {
 
                         <Card.Body>
                             <Card.Title>{t("Pic_4_Title")}</Card.Title>
-                            <Card.Img src={slide05} ></Card.Img>
+                            <Card.Img src={riceCultivate} ></Card.Img>
                             <Card.Text>
                             {t("Pic_4_Description")}
                             </Card.Text>
@@ -98,7 +101,7 @@ function HomeCarauselComponent() {
 
                         <Card.Body>
                             <Card.Title>{t("Pic_5_Title")}</Card.Title>
-                            <Card.Img src={slide05} ></Card.Img>
+                            <Card.Img src={catacaise} ></Card.Img>
                             <Card.Text>
                             {t("Pic_5_Description")}
                             </Card.Text>
@@ -108,10 +111,10 @@ function HomeCarauselComponent() {
                     <Card className="custom-class" style={{ width: '18rem' }}>
 
                         <Card.Body>
-                            <Card.Title>{t("Pic_1_Title")}</Card.Title>
-                            <Card.Img src={slide05} ></Card.Img>
+                            <Card.Title>{t("Pic_6_Title")}</Card.Title>
+                            <Card.Img src={loveThem} ></Card.Img>
                             <Card.Text>
-                            {t("Pic_1_Description")}
+                            {t("Pic_6_Description")}
                             </Card.Text>
                             <Button variant="primary">See More ..</Button>
                         </Card.Body>
