@@ -10,10 +10,10 @@ import slide05 from "../ourwork/images/image012.jpg"
 import slide06 from "../ourwork/images/image014.jpg"
 import slide07 from "../ourwork/images/image016.jpg"
 import slide08 from "../ourwork/images/image018.jpg"
-import slide20 from "../ourwork/images/Foodgiving.jpg"
-import slide21 from "../ourwork/images/orphanleft.jpg";
-import schoolpic from "../ourwork/images/classroompic.jpg"
-import riceCultivate from "../ourwork/images/ricecultivate.jpg";
+import slide20 from "../ourwork/images/Foodgiving.png"
+import slide21 from "../ourwork/images/orphanleft.png";
+import schoolpic from "../ourwork/images/classroompic.png"
+import riceCultivate from "../ourwork/images/paddycultivate.png";
 import catacaise from "../ourwork/images/catacaise.png";
 import loveThem from "../ourwork/images/loveThem.png";
 import "./Home.css";
@@ -43,14 +43,14 @@ function HomeCarauselComponent() {
 
                     <div className="introscreen">
                         <h2>{t("Home_heading")}</h2>
-                        <p>{t("Home_abstract")}</p>
+                        <h5>{t("Home_abstract")}</h5>
 
                     </div>
                 </Row>
             </Container>
 
             <Container>
-                <Row className="d-flex justify-content-around ">
+                <Row className="d-flex justify-content-around">
 
                     <Card className="custom-class" style={{ width: '18rem' }}>
 
@@ -60,7 +60,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_1_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
 
@@ -72,7 +72,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_2_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
                     <Card className="custom-class" style={{ width: '18rem' }}>
@@ -83,7 +83,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_3_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
                     <Card className="custom-class" style={{ width: '18rem' }}>
@@ -94,7 +94,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_4_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
                     <Card className="custom-class" style={{ width: '18rem' }}>
@@ -105,7 +105,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_5_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
                     <Card className="custom-class" style={{ width: '18rem' }}>
@@ -116,7 +116,7 @@ function HomeCarauselComponent() {
                             <Card.Text>
                             {t("Pic_6_Description")}
                             </Card.Text>
-                            <Button variant="primary">See More ..</Button>
+                            {/* <Button variant="primary">See More ..</Button> */}
                         </Card.Body>
                     </Card>
 

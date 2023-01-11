@@ -41,4 +41,13 @@ h2 {
 }
 p {
   margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  text-justify: inter-word;
+}
+.card {
+  border: none !important;
+  width: '18rem';
 }
