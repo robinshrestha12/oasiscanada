@@ -1,8 +1,14 @@
 .footer-bottom{
-    background-color: rgb(131, 165, 238);
+    background-color:rgb(227, 231, 223);
+    margin-top: 40px;
+    padding-top: 30px;
 }
 .footer-bottom-text {
-    background-color: lightblue;
+    background-color: lightgoldenrodyellow;
+  
+}
+.footer {
+    margin-top: 0px;
 }
 .ContactDetails{
     text-align: left;

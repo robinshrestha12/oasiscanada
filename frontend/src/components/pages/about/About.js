@@ -1,10 +1,10 @@
 import React from 'react';
-//import './About.css';
+import './About.css';
 import repFrench from "../../assets/pdffiles/report/10yearsrreport_French.pdf";
 import repSchool from "../../assets/pdffiles/report/saint_irenee_andre_report.pdf";
 function About() {
     return (
-        <div>
+        <div >
             <div className="Report_French">
                 <a href={repFrench} target="_blank" rel="noopener noreferrer"> French Report</a>
             </div>
