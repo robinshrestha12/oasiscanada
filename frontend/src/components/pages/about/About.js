@@ -1,7 +1,7 @@
 import React from 'react';
 //import './About.css';
 import repFrench from "../../assets/pdffiles/report/10yearsrreport_French.pdf";
-import repSchool from "../../assets/pdffiles/report/SAINT_IRENEE_et_André_Runo.pdf";
+import repSchool from "../../assets/pdffiles/report/saint_irenee_andre_report.pdf";
 function About() {
     return (
         <div>
